@@ -3,7 +3,6 @@
 body {
   font-family: "Cormorant Garamond", sans-serif;
   background-color: #eee;
-  overflow-x: hidden;
 }
 
 * {
@@ -64,9 +63,8 @@ section#nasehat p {
   font-size: 3.7vw;
   line-height: 3;
 }
-
 section#nasehat figure#img-nasehat {
-  width: 100%;
+  width: 100vw;
   position: relative;
   left: 50%;
   right: 50%;
@@ -75,7 +73,7 @@ section#nasehat figure#img-nasehat {
 }
 
 section#nasehat figure#img-nasehat img {
-max-width: 100%;
+  max-width: 100%;
 }
 
 section#nasehat figure#img-nasehat figcaption {
