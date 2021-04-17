@@ -73,6 +73,11 @@ section#nasehat figure#img-nasehat {
   margin-left: -50vw;
   margin-right: -50vw;
 }
+
+section#nasehat figure#img-nasehat img {
+max-width: 100%;
+}
+
 section#nasehat figure#img-nasehat figcaption {
   font-size: 2.8vw;
 }
