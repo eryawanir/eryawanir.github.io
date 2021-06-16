@@ -1,0 +1,31 @@
+.jumbotron {
+  padding: 4rem 1rem;
+  background-color: rgb(223, 223, 223);
+}
+
+.animated:before {
+  content: "Mahasiswa Teknik Informatika.";
+  animation: topToBottom 6s infinite 0s;
+}
+
+@keyframes topToBottom {
+  0% {
+    content: "Mahasiswa Teknik Informatika";
+  }
+  34% {
+    content: "Mahasiswa Teknik Informatika";
+  }
+  67% {
+    content: "Junior Web Developer";
+  }
+  100% {
+    content: "Junior Programmer";
+  }
+}
+
+section {
+  padding-top: 3rem;
+}
+body {
+  position: relative;
+}
