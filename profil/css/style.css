@@ -6,7 +6,11 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-bottom: 0vh;
+  padding-bottom: 2vh;
+}
+p.lead {
+  line-height: 2vh;
+  margin-bottom: 4vh;
 }
 
 .animated:before {
