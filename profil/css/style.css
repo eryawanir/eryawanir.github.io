@@ -1,6 +1,12 @@
 .jumbotron {
-  padding: 4rem 1rem;
   background-color: rgb(223, 223, 223);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0vh;
 }
 
 .animated:before {
